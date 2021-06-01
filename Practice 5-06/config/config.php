@@ -1,0 +1,9 @@
+<?php
+	define('ROOT_URL', '');
+	define('DB_HOST', '');
+	define('DB_USER', '');
+	define('DB_PASS', '');
+	define('DB_NAME', '');
+
+//Database connection with mysqli
+$mySqli = new mysqli("localhost","root","","test");
